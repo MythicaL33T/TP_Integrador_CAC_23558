@@ -6,6 +6,7 @@
     <title>Conferencia Buenos Aires</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>TP Integrador Js</title>
 </head>
 <body>
 
@@ -21,20 +22,20 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">La conferencia</a>
+                <a class="nav-link active" aria-current="page" href="#carouselExampleSlidesOnly">La conferencia</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Los oradores</a>
+                <a class="nav-link" href="#od">Los oradores</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-disabled="true" href="#">El lugar y la fecha</a>
+                <a class="nav-link" aria-disabled="true" href="#lf">El lugar y la fecha</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-disabled="true" href="#">Conviertete en orador</a>
+                <a class="nav-link" aria-disabled="true" href="#co">Conviertete en orador</a>
               </li>
             </ul>
             <form class="d-flex" role="search">
-              <button class="btn btn-success" type="submit">Comprar tickets</button>
+              <a class="btn btn-success" href="tickets.html">Comprar tickets</a>
             </form>
           </div>
         </div>
@@ -58,7 +59,7 @@
 
 <!-- Oradores -->
 
-<H6 class="asd">CONOCE A LOS</H6>
+<H6 class="asd" id="od">CONOCE A LOS</H6>
 <h2 class="oradores">ORADORES</h2>
 
 <!-- Tarjetas -->
@@ -103,7 +104,7 @@
 
 <!-- imagenes -->
 
-<div class="container-fluid" style="padding-right: 1%">
+<div class="container-fluid" style="padding-right: 1%" id="lf">
   <div class="row">
     <div class="col" style="margin-top: 50px; padding-left: 0%;">
       <img src="img/honolulu.jpg" alt="" style="width: 100%; height: 450px;">
@@ -120,7 +121,7 @@
 </div>
 
 <!-- oradores -->
-<h6 class="asd">CONVIERTETE EN UN</h6>
+<h6 class="asd" id="co">CONVIERTETE EN UN</h6>
 <h1 class="oradores">ORADOR</h1>
 <h6 class="asd">Anotate como orador para dar una charla ignite. Cuentanos de que quieres hablar!</h6>
 
